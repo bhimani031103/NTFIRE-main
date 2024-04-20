@@ -1,0 +1,158 @@
+/* style.css */
+body {
+    background-color: #110015;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+    width: 50%;
+    /*margin: 2% 10% 2% 10%;*/
+    margin-bottom: 2%;
+    margin-left: 25%;
+    padding: 10px;
+    background-color: #1e0039a2;
+    z-index: 999;
+    border: 1px solid #3c1f4a;
+}
+
+.search-input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background-color: #3c1f4a00;
+    color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: #ffffffa5;
+}
+
+.search-btn {
+    width: 50px;
+    padding: 10px;
+    background-color: #7d37ff67;
+    color: #fff;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #7d37ff8f;
+}
+
+.upload-btn {
+    width: 50px;
+    padding: 10px;
+    background-color: #7d37ff67;
+    color: #fff;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+    background-color: #7d37ff8f;
+}
+
+.output-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #3c1f4a;
+    display: none;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.output {
+    color: #fff;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 20px;
+    /* text-align: center; */
+    background-color: #1e003900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+.navbar-right {
+    flex: 1;
+    text-align: right;
+}
+
+.navbar-left {
+    flex: 1;
+}
+
+.navbar-text {
+    font-size: 25px;
+    font-weight: bold;
+    
+  }
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+.card {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.input-output-box {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 150px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transform: translateY(50px);
+    transition: opacity 2.5s, transform 2.5s;
+}
+
+ .input-output-box.show {
+    opacity: 1;
+    transform: translateY(0);
+} 
